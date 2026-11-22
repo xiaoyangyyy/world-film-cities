@@ -1,0 +1,93 @@
+{
+  "pairs": 26974,
+  "films": 8174,
+  "city_rows": 5006,
+  "city_films": 2199,
+  "city_pair_types": 2934,
+  "top": [
+    {
+      "films": 95,
+      "shot": "洛杉矶",
+      "shot_en": "Los Angeles",
+      "story": "纽约",
+      "story_en": "New York City"
+    },
+    {
+      "films": 58,
+      "shot": "圣莫尼卡",
+      "shot_en": "Santa Monica",
+      "story": "洛杉矶",
+      "story_en": "Los Angeles"
+    },
+    {
+      "films": 57,
+      "shot": "多伦多",
+      "shot_en": "Toronto",
+      "story": "纽约",
+      "story_en": "New York City"
+    },
+    {
+      "films": 55,
+      "shot": "纽约",
+      "shot_en": "New York City",
+      "story": "布魯克林區",
+      "story_en": "Brooklyn"
+    },
+    {
+      "films": 46,
+      "shot": "马利布",
+      "shot_en": "Malibu",
+      "story": "洛杉矶",
+      "story_en": "Los Angeles"
+    },
+    {
+      "films": 44,
+      "shot": "纽约",
+      "shot_en": "New York City",
+      "story": "巴黎",
+      "story_en": "Paris"
+    },
+    {
+      "films": 42,
+      "shot": "長灘",
+      "shot_en": "Long Beach",
+      "story": "洛杉矶",
+      "story_en": "Los Angeles"
+    },
+    {
+      "films": 32,
+      "shot": "蒙特利尔",
+      "shot_en": "Montreal",
+      "story": "纽约",
+      "story_en": "New York City"
+    },
+    {
+      "films": 31,
+      "shot": "巴黎",
+      "shot_en": "Paris",
+      "story": "纽约",
+      "story_en": "New York City"
+    },
+    {
+      "films": 30,
+      "shot": "洛杉矶",
+      "shot_en": "Los Angeles",
+      "story": "華盛頓哥倫比亞特區",
+      "story_en": "Washington, D.C."
+    },
+    {
+      "films": 30,
+      "shot": "溫哥華",
+      "shot_en": "Vancouver",
+      "story": "西雅圖",
+      "story_en": "Seattle"
+    },
+    {
+      "films": 29,
+      "shot": "纽约",
+      "shot_en": "New York City",
+      "story": "曼哈頓",
+      "story_en": "Manhattan"
+    }
+  ]
+}

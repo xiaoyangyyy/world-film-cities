@@ -1,0 +1,24 @@
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT DISTINCT ?place ?type ?typeEn WHERE {
+  {
+    SELECT DISTINCT ?place WHERE {
+      ?film wdt:P31/wdt:P279* wd:Q11424 .
+      ?film wdt:P915 ?place .
+      ?film wdt:P840 ?story .
+      FILTER(?place != ?story)
+    }
+  }
+  UNION
+  {
+    SELECT DISTINCT ?place WHERE {
+      ?film wdt:P31/wdt:P279* wd:Q11424 .
+      ?film wdt:P915 ?shot .
+      ?film wdt:P840 ?place .
+      FILTER(?shot != ?place)
+    }
+  }
+  ?place wdt:P31 ?type .
+  OPTIONAL { ?type rdfs:label ?typeEn . FILTER(LANG(?typeEn) = "en") }
+}

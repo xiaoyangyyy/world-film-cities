@@ -1,0 +1,6 @@
+lookup.jsonl
+_batch*
+_q_*
+_*.rq
+_*.csv
+__pycache__/
